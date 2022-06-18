@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="top-bar">
+            <img src="images/musical-note.png" alt="" width="20px">
+            <span>Now Playing</span>
+            <img src="images/musical-note.png" alt="" width="20px">
+        </div>
+
+        <div class="img-area">
+            <img src="" alt="" >
+        </div>
+
+        <div class="song-details">
+            <p class="name"></p>
+            <p class="artist"></p>
+        </div>
+
+        <div class="progress-area">
+            <div class="progress-bar"></div>
+            <div class="timer">
+                <span class="current">0:00</span>
+                <span class="duration"></span>
+            </div>
+            <audio id="main-audio" src=""></audio>
+        </div>
+
+        
+        <div class="controls">
+            <img id="repeat-plist" src="images/repeat(1).png" width="33px">
+            <img id="prev" src="images/previous.png" width="30px" >
+            <div class="play-pause">
+              <img src="images/play-button.png" width="20px">
+            </div>
+            <img id="next" src="images/next.png" width="30px"> 
+            <img src="images/playlist.png" id="more-music" width="33px">  
+        </div>
+    
+        <div class="music-list">
+            <div class="header">
+                <div class="row">
+                 <img src="images/playlist.png" width="20px">
+                 <span>Music list</span>  
+                </div>
+                 <img src="images/list.png" id="close" width="40px">  
+            </div>
+        <ul>
+            
+        </ul>
+        </div>
+    </div>
+    
+
+
+    <script src="js/music.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
