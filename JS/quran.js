@@ -58,5 +58,5 @@ const allMusics=[
         artist:"AbdulbasitAbdulsamad",
         src:"/quran/114.mp3",
         img:"/images/correctedTwo.jpg"
-    },
+    }, 
 ]
